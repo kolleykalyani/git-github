@@ -48,11 +48,25 @@
 
 * The purpose of git clone is used to create a local copy of remote git repository. It downloads the entire repository including all of its files, commit history and branches to our local repository.
 
-### What is the difference b/w 'gitvpull' and 'git fetch'?
+### What is the difference b/w 'git pull' and 'git fetch'?
 
 * "git pull" : is a combination of 2 commands namely, git fetch and git merge. It fetches the latest changes from the remote repository and automatically merges them with local branch.
 
 * "git fetch" : it only downloads the latest changes from the remote repository, but it doesnot automatically merge them. It updates the remote tracking branches, allowing us to review the changes before merging.
+
+### How do you resolve merge conflicts?
+
+* When a merge conflict occurs, it means that git is unable to automatically merge the changes from different branches.
+
+* To resolve the conflict, we need to mannually edit the following conflicting files to choose the desired changes.
+
+* After resolving the conflicts we can use 'git add' command to stage the changes, followed by 'git commit' to complete the merge.
+
+### What is the difference b/w a branch and tag in git?
+
+* In git, a branch is a lightweight movable pointer to a specific commit. It allows for parallel deployment and isolate changes from each other. Developers can create new branches to work on new features or bug fixes.
+
+* A tag is a reference to a specific commit that is used to mark a significant point in the projects history, such as a release or a version.
 
 ### 
 
