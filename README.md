@@ -68,6 +68,12 @@
 
 * A tag is a reference to a specific commit that is used to mark a significant point in the projects history, such as a release or a version.
 
-### 
+### Why we need branches?
+
+* Branches are essential and allows developers to work effectively for organizing and managing the development process, enabling collaboration and maintain code quality.
+
+* Branches helps us to avoid problematic code got deployed onto the system
+
+### W
 
   
